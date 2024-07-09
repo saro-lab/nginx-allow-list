@@ -1,0 +1,32 @@
+{
+  "name": "nginx-whitelist",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "nginx whitelist manager",
+  "keywords": [
+    "scroll",
+    "typescript"
+  ],
+  "homepage": "https://github.com/saro-lab/nginx-whitelist",
+  "author": {
+    "name": "PARK Yong Seo",
+    "email": "j@saro.me",
+    "url": "https://gs.saro.me"
+  },
+  "bugs": {
+    "url": "https://github.com/saro-lab/nginx-whitelist/issues",
+    "email": "j@saro.me"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.3"
+  },
+  "packageManager": "yarn@4.3.1"
+}
