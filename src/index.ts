@@ -1,5 +1,5 @@
-import {Github} from "./services/github";
+import github from "./services/github";
 
 export {
-    Github
+    github
 }
