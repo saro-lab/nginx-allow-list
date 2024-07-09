@@ -17,13 +17,11 @@ class Github extends WhitelistsGetter {
             let data = '';
             res.on('data', (chunk: any) =>  data += chunk);
             res.on('end', () => {
-                console.log(11111111111111111111111111111);
-                console.log(data);
                 const jd = JSON.parse(data);
-                return ([
-                    'actions', 'actions_macos', 'api', 'dependabot', 'domains', 'git', 'github_enterprise_importer',
+                callback(([
+                    'actions', 'actions_macos', 'api', 'dependabot', 'git', 'github_enterprise_importer',
                     'hooks', 'importer', 'packages', 'pages', 'web'
-                ]).map(name => new Whitelist(`github_${name}`, jd[name]));
+                ]).map(name => new Whitelist(`github_${name}`, jd[name])));
             });
         }).on('error', (err: any) => {
             console.error('network error:', err);

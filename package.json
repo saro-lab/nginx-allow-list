@@ -24,7 +24,8 @@
   ],
   "scripts": {
     "build": "tsc",
-    "test": "ts-node tests/test.ts"
+    "test:help": "ts-node src/index.ts",
+    "test:github": "ts-node src/index.ts github ./temp"
   },
   "devDependencies": {
     "@types/node": "^20.14.10",
