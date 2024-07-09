@@ -1,3 +1,4 @@
+#!/usr/bin/env ts-node
 import github from "./services/github";
 import {WhitelistsGetter} from "./misc/WhitelistsGetter";
 import * as process from "node:process";

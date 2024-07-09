@@ -1,11 +1,12 @@
 {
   "name": "nginx-whitelist",
-  "version": "1.0.0",
+  "version": "1.0.7",
   "license": "MIT",
   "description": "nginx whitelist manager",
   "keywords": [
-    "scroll",
-    "typescript"
+    "nginx",
+    "ip-whitelist",
+    "whitelist"
   ],
   "homepage": "https://github.com/saro-lab/nginx-whitelist",
   "author": {
@@ -18,6 +19,7 @@
     "email": "j@saro.me"
   },
   "main": "dist/index.js",
+  "bin": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist/**"
@@ -28,8 +30,8 @@
     "test:github": "ts-node src/index.ts github ./temp"
   },
   "devDependencies": {
-    "@types/node": "^20.14.10",
     "ts-node": "^10.9.2",
+    "@types/node": "^20.14.10",
     "typescript": "^5.5.3"
   },
   "packageManager": "yarn@4.3.1"
