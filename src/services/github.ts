@@ -1,13 +1,24 @@
 import {WhitelistsGetter} from "../misc/WhitelistsGetter";
 import {Whitelist} from "../misc/Whitelist";
-import https from "https";
 
 class Github extends WhitelistsGetter {
     getWhitelists(callback: (whitelist: Whitelist[]) => void): void {
-        https.get(`https://api.github.com/meta`, {}, (res: any) => {
+        let https = require('node:https');
+        const options = {
+            hostname: 'api.github.com',
+            port: 443,
+            path: '/meta',
+            method: 'GET',
+            headers: {
+                'User-Agent': 'nginx-whitelist'
+            }
+        };
+        https.get(options, (res: any) => {
             let data = '';
             res.on('data', (chunk: any) =>  data += chunk);
             res.on('end', () => {
+                console.log(11111111111111111111111111111);
+                console.log(data);
                 const jd = JSON.parse(data);
                 return ([
                     'actions', 'actions_macos', 'api', 'dependabot', 'domains', 'git', 'github_enterprise_importer',
