@@ -1,6 +1,6 @@
 {
   "name": "nginx-whitelist",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "license": "MIT",
   "description": "nginx whitelist manager",
   "keywords": [
@@ -26,8 +26,9 @@
   ],
   "scripts": {
     "build": "tsc",
-    "test:help": "ts-node src/index.ts",
-    "test:github": "ts-node src/index.ts github ./temp"
+    "test:help": "src/index.ts",
+    "test:github": "src/index.ts github ./temp",
+    "test:cloudflare": "src/index.ts cloudflare ./temp"
   },
   "devDependencies": {
     "ts-node": "^10.9.2",

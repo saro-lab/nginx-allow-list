@@ -31,3 +31,7 @@ github_packages.conf
 github_pages.conf
 github_web.conf
 ```
+### Cloudflare
+```
+cloudflare.conf
+```

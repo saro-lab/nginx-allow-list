@@ -13,11 +13,10 @@ class Util {
             https.get(options, (res: any) => {
                 let data = '';
                 res.on('data', (chunk: any) =>  data += chunk);
-                res.on('end', () => {
-                    resolve(data);
-                });
+                res.on('end', () => resolve(data));
             }).on('error', (err: any) => {
-                console.error('network error:', err);
+                console.log(`network error: ${err}`)
+                reject(err);
             });
         });
     }

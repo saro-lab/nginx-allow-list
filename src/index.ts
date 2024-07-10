@@ -1,10 +1,11 @@
 #!/usr/bin/env ts-node
 import github from "./services/github";
+import cloudflare from "./services/cloudflare";
 import {WhitelistsGetter} from "./misc/WhitelistsGetter";
 import * as process from "node:process";
 
 let services = {
-    github
+    github, cloudflare
 };
 
 const argv = process.argv;
