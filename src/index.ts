@@ -38,6 +38,10 @@ if (!pass) {
     console.log('Example:');
     console.log(`npx nginx-whitelist github /save/path/dir`);
     console.log();
+    console.log('Services:');
+    console.log(`github`);
+    console.log(`cloudflare`);
+    console.log();
     console.log('See:');
     console.log('https://github.com/saro-lab/nginx-whitelist');
     process.exit(1);
