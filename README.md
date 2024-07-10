@@ -35,3 +35,17 @@ github_web.conf
 ```
 cloudflare.conf
 ```
+
+
+### nginx.conf example
+```
+server {
+    ...
+    location / {
+        ...
+        include /save/path/example/github_actions.txt;
+        deny all;
+    }
+    ...
+}
+```
