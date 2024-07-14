@@ -1,11 +1,7 @@
 # NGINX whitelist
 
 ## Requirement
-- npm 5.2.0 or later
-    - apt: `sudo apt install nodejs npm`
-    - other: [nodejs.org](https://nodejs.org/)
-- ts-node
-    - `npm install -g ts-node`
+- [node.js](https://nodejs.org/)
 
 ## Usage
 ```

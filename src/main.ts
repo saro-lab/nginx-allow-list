@@ -1,4 +1,4 @@
-#!/usr/bin/env ts-node
+#!/usr/bin/env node
 import github from "./services/github";
 import cloudflare from "./services/cloudflare";
 import {WhitelistsGetter} from "./misc/WhitelistsGetter";

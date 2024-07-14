@@ -128,6 +128,8 @@ __metadata:
     "@types/node": "npm:^20.14.10"
     ts-node: "npm:^10.9.2"
     typescript: "npm:^5.5.3"
+  bin:
+    nginx-whitelist: dist/main.js
   languageName: unknown
   linkType: soft
 

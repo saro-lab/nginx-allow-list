@@ -1,6 +1,6 @@
 {
   "name": "nginx-whitelist",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "license": "MIT",
   "description": "nginx whitelist manager",
   "keywords": [
@@ -18,21 +18,21 @@
     "url": "https://github.com/saro-lab/nginx-whitelist/issues",
     "email": "j@saro.me"
   },
-  "main": "dist/index.js",
-  "bin": "dist/index.js",
+  "main": "dist/main.js",
+  "bin": "dist/main.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist/**"
   ],
   "scripts": {
     "build": "tsc",
-    "test:help": "src/index.ts",
-    "test:github": "src/index.ts github ./temp",
-    "test:cloudflare": "src/index.ts cloudflare ./temp"
+    "test:help": "tsc && dist/main.js",
+    "test:github": "tsc && dist/main.js github ./temp",
+    "test:cloudflare": "tsc && dist/main.js cloudflare ./temp"
   },
   "devDependencies": {
-    "ts-node": "^10.9.2",
     "@types/node": "^20.14.10",
+    "ts-node": "^10.9.2",
     "typescript": "^5.5.3"
   },
   "packageManager": "yarn@4.3.1"
