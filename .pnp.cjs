@@ -27,9 +27,9 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["@types/node", "npm:20.14.10"],\
+          ["@types/node", "npm:22.0.0"],\
           ["ts-node", "virtual:69bb92285ed885f14461939ed885487222ed039482c0b801f7716b52cdb3fba77de980f934b5b4db60d7e25f86a1a12f7bef69a9a8f86357fed31497d72247bf#npm:10.9.2"],\
-          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"]\
+          ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -110,11 +110,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@types/node", [\
-      ["npm:20.14.10", {\
-        "packageLocation": "../../AppData/Local/Yarn/Berry/cache/@types-node-npm-20.14.10-5efcbc9009-10c0.zip/node_modules/@types/node/",\
+      ["npm:22.0.0", {\
+        "packageLocation": "../../AppData/Local/Yarn/Berry/cache/@types-node-npm-22.0.0-5a106da8ed-10c0.zip/node_modules/@types/node/",\
         "packageDependencies": [\
-          ["@types/node", "npm:20.14.10"],\
-          ["undici-types", "npm:5.26.5"]\
+          ["@types/node", "npm:22.0.0"],\
+          ["undici-types", "npm:6.11.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -179,9 +179,9 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["nginx-whitelist", "workspace:."],\
-          ["@types/node", "npm:20.14.10"],\
+          ["@types/node", "npm:22.0.0"],\
           ["ts-node", "virtual:69bb92285ed885f14461939ed885487222ed039482c0b801f7716b52cdb3fba77de980f934b5b4db60d7e25f86a1a12f7bef69a9a8f86357fed31497d72247bf#npm:10.9.2"],\
-          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"]\
+          ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -205,7 +205,7 @@ const RAW_RUNTIME_STATE =
           ["@tsconfig/node12", "npm:1.0.11"],\
           ["@tsconfig/node14", "npm:1.0.3"],\
           ["@tsconfig/node16", "npm:1.0.4"],\
-          ["@types/node", "npm:20.14.10"],\
+          ["@types/node", "npm:22.0.0"],\
           ["@types/swc__core", null],\
           ["@types/swc__wasm", null],\
           ["@types/typescript", null],\
@@ -215,7 +215,7 @@ const RAW_RUNTIME_STATE =
           ["create-require", "npm:1.1.1"],\
           ["diff", "npm:4.0.2"],\
           ["make-error", "npm:1.3.6"],\
-          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"],\
+          ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"],\
           ["v8-compile-cache-lib", "npm:3.0.1"],\
           ["yn", "npm:3.1.1"]\
         ],\
@@ -232,19 +232,19 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["typescript", [\
-      ["patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07", {\
-        "packageLocation": "../../AppData/Local/Yarn/Berry/cache/typescript-patch-9fde7bec60-10c0.zip/node_modules/typescript/",\
+      ["patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07", {\
+        "packageLocation": "../../AppData/Local/Yarn/Berry/cache/typescript-patch-fe43cd9db9-10c0.zip/node_modules/typescript/",\
         "packageDependencies": [\
-          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"]\
+          ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["undici-types", [\
-      ["npm:5.26.5", {\
-        "packageLocation": "../../AppData/Local/Yarn/Berry/cache/undici-types-npm-5.26.5-de4f7c7bb9-10c0.zip/node_modules/undici-types/",\
+      ["npm:6.11.1", {\
+        "packageLocation": "../../AppData/Local/Yarn/Berry/cache/undici-types-npm-6.11.1-3a2172800d-10c0.zip/node_modules/undici-types/",\
         "packageDependencies": [\
-          ["undici-types", "npm:5.26.5"]\
+          ["undici-types", "npm:6.11.1"]\
         ],\
         "linkType": "HARD"\
       }]\
